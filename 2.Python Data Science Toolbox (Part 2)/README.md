@@ -278,7 +278,7 @@ for df_urb_pop in urb_pop_reader:
 data.plot(kind='scatter', x='Year', y='Total Urban Population')
 plt.show()
 ```
-# Exercise 8:
+# Exercise 7:
 
 This is the last leg. You've learned a lot about processing a large dataset in chunks. In this last exercise, you will put all the code for processing the data into a single function so that you can reuse the code without having to rewrite the same things all over again.
 
