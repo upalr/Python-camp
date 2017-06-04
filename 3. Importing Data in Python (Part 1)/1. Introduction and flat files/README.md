@@ -1,4 +1,6 @@
-# Importing different datatypes With Numpy
+# Using NumPy to Import Flat Files
+
+## Importing different datatypes With Numpy
 
 The file seaslug.txt
 
