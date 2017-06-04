@@ -86,3 +86,34 @@ data_array = data.values
 print(type(data_array))
 ```
 
+# Customizing your pandas import
+
+**The pandas package is also great at dealing with many of the issues you will encounter when importing data as a data scientist,** <br />
+such as: 
+1. comments occurring in flat files,
+2. empty lines and missing values. 
+3. Note that missing values are also commonly referred to as NA or NaN. 
+
+[Exercise Link](https://campus.datacamp.com/courses/importing-data-in-python-part-1/introduction-and-flat-files-1?ex=18)
+<br />
+
+```pyton
+# Import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+
+# Assign filename: file
+file = 'titanic_corrupt.txt'
+
+# Import file: data
+data = pd.read_csv(file, sep='\t', comment='#', na_values='Nothing')
+
+# Print the head of the DataFrame
+print(data.head())
+
+# Plot 'Age' variable in a histogram
+pd.DataFrame.hist(data[['Age']])
+plt.xlabel('Age (years)')
+plt.ylabel('count')
+plt.show()
+```
+
