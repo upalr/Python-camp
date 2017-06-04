@@ -52,7 +52,7 @@ print(df.head())
 ```
 
 
-#process file line by line:
+# process file line by line:
 
 ```python
 # Open a connection to the file
@@ -85,7 +85,7 @@ with open('world_dev_ind.csv') as file:
 print(counts_dict)
 ```
 
-# Exwecise
+# Example 1
 
 In the previous exercise, you processed a file line by line for a given number of lines. What if, however, you want to do this for the entire file?
 
@@ -123,7 +123,7 @@ with open('world_dev_ind.csv') as file:
     print(next(gen_file))
 ```
 
-# Exercise 2:
+# Example 2:
 Great! You've just created a generator function that you can use to help you process large files.
 
 Now let's use your generator function to process the World Bank dataset like you did previously. You will process the file line by line, to create a dictionary of the counts of how many times each country appears in a column in the dataset. For this exercise, however, you won't process just 1000 rows of data, you'll process the entire dataset!
@@ -152,7 +152,7 @@ with open('world_dev_ind.csv') as file :
 print(counts_dict)
 ```
 
-# Exercise 3:
+# Example 3:
 
 Another way to read data too large to store in memory in chunks is to read the file in as DataFrames of a certain length, say, 100. For example, with the pandas package (imported as pd), you can do pd.read_csv(filename, chunksize=100). This creates an iterable reader object, which means that you can use next() on it.
 ```python
@@ -186,7 +186,7 @@ for df in pd.read_csv('tweets.csv', chunksize=10):
 print(counts_dict)
 ```
 
-# Exercise 4:
+# Example 4:
 
 In the previous exercise, you used read_csv() to read in DataFrame chunks from a large dataset. In this exercise, you will read in a file using a bigger DataFrame chunk size and then process the data from the first chunk.
 
@@ -214,7 +214,7 @@ pops_list = list(pops)
 # Print pops_list
 print(pops_list)
 ```
-# Exercise 5:
+# Example 5:
 
 You're getting used to reading and processing data in chunks by now. Let's push your skills a little further by adding a column to a DataFrame.
 
@@ -245,7 +245,7 @@ df_pop_ceb.plot(kind='scatter', x='Year', y='Total Urban Population')
 plt.show()
 ```
 
-# Exercise 6:
+# Example 6:
 
 In the previous exercises, you've only processed the data from the first DataFrame chunk. This time, you will aggregate the results over all the DataFrame chunks in the dataset. This basically means you will be processing the entire dataset now. This is neat because you're going to be able to process the entire large dataset by just working on smaller pieces of it!
 ```python
@@ -278,7 +278,7 @@ for df_urb_pop in urb_pop_reader:
 data.plot(kind='scatter', x='Year', y='Total Urban Population')
 plt.show()
 ```
-# Exercise 7:
+# Exampel 7:
 
 This is the last leg. You've learned a lot about processing a large dataset in chunks. In this last exercise, you will put all the code for processing the data into a single function so that you can reuse the code without having to rewrite the same things all over again.
 
