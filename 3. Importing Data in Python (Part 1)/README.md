@@ -61,8 +61,28 @@ array([0, 1, 0, 1])
 You have just used np.genfromtxt() to import data containing mixed datatypes. There is also another function np.recfromcsv() that behaves similarly to np.genfromtxt(), except that its default dtype is None. In this exercise, you'll practice using this to achieve the same result
 <br />
 <br />
+<br />
 
 # Importing flast files using pandas
 
 ## Using pandas to import flat files as DataFrames (1)
 In the last exercise, you were able to import flat files containing columns with different datatypes as numpy arrays. However, the DataFrame object in pandas is a more appropriate structure in which to store such data and, thankfully, we can easily import files of **mixed data types as DataFrames** using the pandas functions read_csv() and read_table().
+
+
+# Using pandas to import flat files as DataFrames (2)
+
+In the last exercise, you were able to import flat files into a pandas DataFrame. **As a bonus, it is then straightforward to retrieve the corresponding numpy array using the attribute values**
+```pyton
+# Assign the filename: file
+file = 'digits.csv'
+
+# Read the first 5 rows of the file into a DataFrame: data
+data = pd.read_csv(file, nrows=5, header=None) # header (there is no header in this file)
+
+# Build a numpy array from the DataFrame: data_array
+data_array = data.values
+
+# Print the datatype of data_array to the shell
+print(type(data_array))
+```
+
