@@ -1,0 +1,2 @@
+# ->
+iterable  -> iter -> iterator -> next
