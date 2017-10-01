@@ -57,3 +57,8 @@ cube =  raise_val(3)
 print(square(2), cube(4))
 output: 4, 64
 ```
+
+
+# 3. Default and Flexiable argument (*args amd **kwargs)
+
+https://campus.datacamp.com/courses/python-data-science-toolbox-part-1/default-arguments-variable-length-arguments-and-scope?ex=9
