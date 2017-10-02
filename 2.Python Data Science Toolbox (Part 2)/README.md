@@ -56,7 +56,6 @@ pd.readcsv('data.csv', chunksize = 1000) , actually returns a **iterable**. so w
 
 
 
-
 # We can create one dictonary from two list using zip() and list()
 
 ```python
