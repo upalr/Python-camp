@@ -50,7 +50,7 @@ we could also use the (*) operator to print all the elements
 
 ![file chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/8.chank.PNG)
 
-pd.readcsv('data.csv', chunksize = 1000) , actually returns a **iterable**. so we can use for loop on it.
+pd.readcsv('data.csv', chunksize = 1000) , actually returns a **iterable**. so we can use for loop on it. Moreover, each loop variable **chunk** is actually a DataFrame. 
 
 ![Example of chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/9.chank.PNG)
 
