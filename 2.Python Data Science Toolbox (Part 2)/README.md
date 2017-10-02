@@ -1,7 +1,15 @@
 # Iterable:
 ## lists, strings, dictionaries, file connections
 
-We can create one dictonary from two list using zip() and list()
+iterable  -> iter() -> iterator -> next()
+
+![Iterabls vs Iterators Image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/1.%20Iterators%20vs%20iterables.PNG "Iterabls vs Iterators Image")
+
+iterable  -> iter() -> iterator -> next() process
+
+![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG "Iterabls vs Iterators Image")
+
+# We can create one dictonary from two list using zip() and list()
 
 ```python
 # Zip lists: zipped_lists
