@@ -1,4 +1,4 @@
-# introduction to Iteretors
+# 1. Introduction to Iteretors
 ## Iterable:
 *lists, strings, dictionaries, file connections are iterable*  +  enumrrate() and zip()
 
@@ -12,7 +12,7 @@ iterable  -> iter() -> iterator -> next() process
 
 ![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG)
 
-# Playing with Iterators (enumerate() and zip())
+# 2. Playing with Iterators (enumerate() and zip())
 
 ## Enumerate()
 [enumerate() and zip() video](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/using-iterators-in-pythonland?ex=6)
@@ -38,8 +38,17 @@ we could use a for loop to iterate over the **zip object** and print the **tuple
 
 ![unpack zip](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/6.unpack%20zip1.PNG)
 
-we could also use the ***** operator to print all the elements
-![unpack zip using *](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/6.unpack%20zip2.PNG)
+we could also use the (*) operator to print all the elements
+
+![unpack zip using](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/7.unpack%20zip2.PNG)
+
+# 3. Using iterators to load large files into memory
+
+![file chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/8.chank.PNG)
+
+pd.readcsv('data.csv', chunksize = 1000) , actually returns a **iterable**. so we can use for loop on it.
+
+![Example of chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/9.chank.PNG)
 
 
 # We can create one dictonary from two list using zip() and list()
@@ -73,8 +82,6 @@ list_of_dicts = [lists2dict(feature_names, sublist) for sublist in row_lists]
 print(list_of_dicts[0])
 print(list_of_dicts[1])
 ```
-
-
 
 # List of dictionary to DataFrame
 
