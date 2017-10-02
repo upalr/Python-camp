@@ -11,7 +11,7 @@ iterable  -> iter() -> iterator -> next() process
 ![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG "Iterabls vs Iterators Image")
 
 # Playing with Iterators (enumerate() and zip())
-[Link](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/using-iterators-in-pythonland?ex=6)
+[enumerate() and zip()](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/using-iterators-in-pythonland?ex=6)
 
 # We can create one dictonary from two list using zip() and list()
 
