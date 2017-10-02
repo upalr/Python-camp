@@ -1,2 +1,2 @@
 # ->
-iterable  -> iter -> iterator -> next
+iterable  -> iter() -> iterator -> next()
