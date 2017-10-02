@@ -1,14 +1,16 @@
 # introduction to Iteretors
 ## Iterable:
-*lists, strings, dictionaries, file connections are iterable*
+*lists, strings, dictionaries, file connections are iterable*  +  enumrrate() and zip()
+
+**INFO:** for loop are used on those iterables
 
 iterable  -> iter() -> iterator -> next()
 
-![Iterabls vs Iterators Image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/1.%20Iterators%20vs%20iterables.PNG "Iterabls vs Iterators Image")
+![Iterabls vs Iterators Image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/1.%20Iterators%20vs%20iterables.PNG)
 
 iterable  -> iter() -> iterator -> next() process
 
-![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG "Iterabls vs Iterators Image")
+![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG)
 
 # Playing with Iterators (enumerate() and zip())
 
@@ -19,17 +21,25 @@ iterable  -> iter() -> iterator -> next() process
 
 We can use the function *list()* to turn this **enumerate object** to a **list of tuples**. 
 
-![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/3.enumrate.PNG "Iterabls vs Iterators Image")
+![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/3.enumrate.PNG)
 
-*Enumarate object* itself is also a *iterable* and we can loop over it.
+**Enumarate object** itself is also a **iterable** and we can loop over it.
 
-![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/4.Enumrate%20unpack.PNG "Iterabls vs Iterators Image")
+![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/4.Enumrate%20unpack.PNG)
 
 
 ## Zip()
-*zip()* accepts an **arbitrary number of iterables** and returns an **zip object ** which is actually **iterator of tuples**
+*zip()* accepts an **arbitrary number of iterables** and returns an **zip object** which is actually **iterator of tuples**
 we can turn this **iterator of tuples** into a list using *list()*
 
+![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/5.%20zip.PNG)
+
+we could use a for loop to iterate over the **zip object** and print the **tuples**
+
+![unpack zip](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/6.unpack%20zip1.PNG)
+
+we could also use the ***** operator to print all the elements
+![unpack zip using *](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/6.unpack%20zip2.PNG)
 
 
 # We can create one dictonary from two list using zip() and list()
