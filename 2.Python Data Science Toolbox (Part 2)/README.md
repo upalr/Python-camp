@@ -1,6 +1,8 @@
 # introduction to Iteretors
 ## Iterable:
-*lists, strings, dictionaries, file connections are iterable*  ++ enumrrate() and zip()
+*lists, strings, dictionaries, file connections are iterable*  +  enumrrate() and zip()
+
+**INFO:** for loop are used on those iterables
 
 iterable  -> iter() -> iterator -> next()
 
