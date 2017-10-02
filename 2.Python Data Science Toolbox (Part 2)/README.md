@@ -12,6 +12,8 @@ iterable  -> iter() -> iterator -> next() process
 
 ![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG)
 
+
+
 # 2. Playing with Iterators (enumerate() and zip())
 
 ## Enumerate()
@@ -42,6 +44,8 @@ we could also use the (*) operator to print all the elements
 
 ![unpack zip using](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/7.unpack%20zip2.PNG)
 
+
+
 # 3. Using iterators to load large files into memory
 
 ![file chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/8.chank.PNG)
@@ -49,6 +53,8 @@ we could also use the (*) operator to print all the elements
 pd.readcsv('data.csv', chunksize = 1000) , actually returns a **iterable**. so we can use for loop on it.
 
 ![Example of chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/9.chank.PNG)
+
+
 
 
 # We can create one dictonary from two list using zip() and list()
