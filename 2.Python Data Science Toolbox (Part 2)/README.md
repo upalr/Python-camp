@@ -13,6 +13,13 @@ iterable  -> iter() -> iterator -> next() process
 # Playing with Iterators (enumerate() and zip())
 [enumerate() and zip()](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/using-iterators-in-pythonland?ex=6)
 
+*Enumerate()* is a function that takes any **iterable** as an argument such as a list and returns a special **enumerate object** which consists of pairs containing the elements of original iterable along with the index within the iterable.
+
+We can use the function *list()* to turn this **enumerate object** to a **list of tuples**. 
+
+![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/3.enumrate.PNG "Iterabls vs Iterators Image")
+
+*Enumarate object* itself is also a *iterable* and we can loop over it 
 # We can create one dictonary from two list using zip() and list()
 
 ```python
