@@ -21,7 +21,7 @@ We can use the function *list()* to turn this **enumerate object** to a **list o
 
 ![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/3.enumrate.PNG)
 
-*Enumarate object* itself is also a *iterable* and we can loop over it.
+**Enumarate object** itself is also a **iterable** and we can loop over it.
 
 ![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/4.Enumrate%20unpack.PNG)
 
