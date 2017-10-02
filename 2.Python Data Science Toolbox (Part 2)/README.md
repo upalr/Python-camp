@@ -32,7 +32,7 @@ we can turn this **iterator of tuples** into a list using *list()*
 
 ![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/5.%20zip.PNG)
 
-we could use a for loop to iterate over the zip object and print the tuples
+we could use a for loop to iterate over the **zip object** and print the **tuples**
 
 ![unpack zip](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/6.unpack%20zip1.PNG)
 
