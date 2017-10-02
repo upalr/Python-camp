@@ -11,7 +11,9 @@ iterable  -> iter() -> iterator -> next() process
 ![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG "Iterabls vs Iterators Image")
 
 # Playing with Iterators (enumerate() and zip())
-[enumerate() and zip()](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/using-iterators-in-pythonland?ex=6)
+
+## Enumerate()
+[enumerate() and zip() video](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/using-iterators-in-pythonland?ex=6)
 
 *Enumerate()* is a function that takes any **iterable** as an argument such as a list and returns a special **enumerate object** which consists of pairs containing the elements of original iterable along with the index within the iterable.
 
@@ -19,7 +21,17 @@ We can use the function *list()* to turn this **enumerate object** to a **list o
 
 ![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/3.enumrate.PNG "Iterabls vs Iterators Image")
 
-*Enumarate object* itself is also a *iterable* and we can loop over it 
+*Enumarate object* itself is also a *iterable* and we can loop over it.
+
+![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/4.Enumrate%20unpack.PNG "Iterabls vs Iterators Image")
+
+
+## Zip()
+*zip()* accepts an **arbitrary number of iterables** and returns an **zip object ** which is actually **iterator of tuples**
+we can turn this **iterator of tuples** into a list using *list()*
+
+
+
 # We can create one dictonary from two list using zip() and list()
 
 ```python
