@@ -83,26 +83,12 @@ print(new_fellowship)
 **Generator Object:** A generator is like a list comprehension except **it doesn't store the list in memory**. **it doesn't construct the list**, but it's an object we can iterate over to produce **elements** of the **list (analogous list)** as required. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 3.2 List Comprehensions vs Generators
+### 3.1.1 List Comprehensions vs Generators
 
 ![9.list-comprehensions-vs-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/9.list-comprehensions-vs-generators.PNG)
 
 
-## 3.3 Printing values from Generators
+### 3.1.2 Printing values from Generators
 
 Here we can see that looping over a **generator expression** produces the elements of the **analogous list**.
 We can also pass a **generator** to the function **list()** to create the list. 
@@ -116,13 +102,13 @@ Moreover, like any other **iterator** we can pass a **generator** to the funtion
 ![11.printing-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/11.printing-generators.PNG)
 
 
-## 3.4 Conditionals in Generators
+### 3.1.3 Conditionals in Generators
 Anything we can do in a list comprehensions such as **filtering and applying conditionals** we can also do in a **generator expression **such as you can see here: 
 
 ![12.conditionals-in-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/12.conditionals-in-generators.PNG)
 
 
-## 3.1 Generator Functions 
+## 3.2 Generator Functions 
 ![Generator Function DataCamp](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/list-comprehensions-and-generators?ex=10)
 
 Generator Functions are functions that when called produce **generator objects**
