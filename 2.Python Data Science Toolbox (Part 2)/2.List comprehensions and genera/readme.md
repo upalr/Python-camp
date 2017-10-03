@@ -78,14 +78,12 @@ print(new_fellowship)
 ## 3.1 Generator Expressions
 ![Generator Expressions  DataCamp](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/list-comprehensions-and-generators?ex=10)
 
-![7.dict-comprehension.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/7.dict-comprehension.PNG)
-
-
-## 3.2 List Comprehensions vs Generators
+**Generator Object:** A generator is like a list comprehension except **it doesn't store the list in memory**. **it doesn't construct the list**, but it's an object we can iterate over to produce **elements** of the **list (analogous list)** as required. 
 
 ![8.generator-expressions.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/8.generator-expressions.PNG)
 
-**Generator Object:** A generator is like a list comprehension except **it doesn't store the list in memory**. **it doesn't construct the list**, but it's an object we can iterate over to produce **elements** of the **list (analogous list)** as required. 
+
+## 3.2 List Comprehensions vs Generators
 
 ![9.list-comprehensions-vs-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/9.list-comprehensions-vs-generators.PNG)
 
