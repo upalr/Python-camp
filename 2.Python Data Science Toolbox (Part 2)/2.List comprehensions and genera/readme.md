@@ -92,18 +92,20 @@ print(new_fellowship)
 
 ## 3.3 Printing values from Generators
 
-Here we can see that looping over a **generator** expression produces the elements of the **analogous list**.
+Here we can see that looping over a **generator expression** produces the elements of the **analogous list**.
 We can also pass a **generator** to the function **list()** to create the list. 
 
 ![10.printing-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/10.printing-generators.PNG)
 
-Moreover, like any other **iterator** we can pass a generator to the funtion **next()** in order to iterate through to it's elements. This an example of **LAZY EVALUATION**. Where by the evaluation of the expression is delayed untill it's value is needed. 
+Moreover, like any other **iterator** we can pass a **generator** to the funtion **next()** in order to iterate through to it's elements. This an example of **LAZY EVALUATION**. Where by the evaluation of the expression is delayed untill it's value is needed.
+
+**INFO: GENERETOR OBJECT IS A ITERATOR BECAUSE WE CAN APPLY NEXT() ON IT**
 
 ![11.printing-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/11.printing-generators.PNG)
 
 
 ## 3.4 Conditionals in Generators
-Anything we can do in a list comprehensions such as **filtering and applying conditionals** we can also do in a generator expression such as you can see here: 
+Anything we can do in a list comprehensions such as **filtering and applying conditionals** we can also do in a **generator expression **such as you can see here: 
 
 ![12.conditionals-in-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/12.conditionals-in-generators.PNG)
 
@@ -115,11 +117,11 @@ Generator Functions are functions that when called produce **generator objects**
 
 ![13.generator-functions.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/13.generator-functions.PNG)
 
-Here i have defined a **generator function** that whenever called with a number *n* produces a **generator object**  that generates integer 0 through n. We can see within the function defination that *i* is initialized to 0. Then the first time the **generator object** is called it yields *i = 0*, it then add 1 to i and then yield *1* on the next iteration and so on.
+Here i have defined a **generator function** that whenever called with a number *n* produces a **generator object**  that generates integer 0 through *n*. We can see within the function defination that *i* is initialized to 0. Then the first time the **generator object** is called it yields *i = 0*, it then add 1 to i and then yield *1* on the next iteration and so on.
 
 ![14.generator-functions-example.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/14.generator-functions-example.PNG)
 
-Calling generator functions is like calling other functions
+Calling **generator functions** is like calling other functions
 
 ![15.use-of-generator-functions.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/15.use-of-generator-functions.PNG)
 
