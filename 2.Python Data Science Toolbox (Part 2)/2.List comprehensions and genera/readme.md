@@ -113,7 +113,7 @@ Generator Functions are functions that when called produce **generator objects**
 
 ![13.generator-functions.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/13.generator-functions.PNG)
 
-Here i have defined a generator function that whenever called with a number *n* produces a **generator object**  that generates integer 0 ton n. We can see within the function defination that *i* is initialized to 0. Then the first time the generator object is called it yields i = 0 it then add 1 to i and then yield 1 in the next iteration and so on
+Here i have defined a generator function that whenever called with a number *n* produces a **generator object**  that generates integer 0 to n. We can see within the function defination that *i* is initialized to 0. Then the first time the generator object is called it yields i = 0, it then add 1 to i and then yield 1 in the next iteration and so on
 
 ![14.generator-functions-example.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/14.generator-functions-example.PNG)
 
