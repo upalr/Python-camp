@@ -44,3 +44,21 @@ matrix = [[col for col in range(5)] for row in range(5)]
 for row in matrix:
     print(row)
 ```
+
+
+# 2 Advanced comprehensions
+## 2.1 Conditionals in Comprehensions
+
+### 2.1.1 Conditionals on The Iterable 
+![5.conditionsls-on-the-iterable.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/5.conditionsls-on-the-iterable.PNG)
+
+### 2.1.2 Conditionals on The Output Expression 
+![6.conditionals-on-the%20output-expressin.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/6.conditionals-on-the%20output-expressin.PNG)
+
+
+## 2.2 Dict comprehensions
+![7.dict-comprehension.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/7.dict-comprehension.PNG)
+
+
+
+
