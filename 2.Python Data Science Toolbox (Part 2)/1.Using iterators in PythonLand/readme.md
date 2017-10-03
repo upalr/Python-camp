@@ -12,7 +12,14 @@ iterable  -> iter() -> iterator -> next() process
 
 ![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG)
 
-
+### Breaking down the for loop
+```python
+  for i in rage(0, 11):
+      print(i)
+ ```
+ 
+   **rage(0, 11)** : Iterable
+   **i**: Iterator variabls (represent members of iterable)
 
 # 2. Playing with Iterators (enumerate() and zip())
 
