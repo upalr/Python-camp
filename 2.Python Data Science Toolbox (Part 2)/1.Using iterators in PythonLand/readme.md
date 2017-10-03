@@ -1,5 +1,5 @@
 # 1. Introduction to Iteretors
-## Iterable:
+## 1.1 Iterable:
 *lists, strings, dictionaries, file connections are iterable*  +  enumrrate() and zip()
 
 **INFO:** for loop are used on those iterables
@@ -12,7 +12,7 @@ iterable  -> iter() -> iterator -> next() process
 
 ![Iterabls vs Iterators process image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/2.Iterators%20vs%20iterables%20process.PNG)
 
-### Breaking down the for loop
+### 1.1.1 Breaking down the for loop
 ```python
   for i in rage(0, 11):
       print(i)
@@ -23,7 +23,7 @@ iterable  -> iter() -> iterator -> next() process
 
 # 2. Playing with Iterators (enumerate() and zip())
 
-## Enumerate()
+## 2.1 Enumerate()
 [enumerate() and zip() video](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/using-iterators-in-pythonland?ex=6)
 
 *Enumerate()* is a function that takes any **iterable** as an argument such as a list and returns a special **enumerate object** which consists of pairs containing the elements of original iterable along with the index within the iterable.
@@ -37,7 +37,7 @@ We can use the function *list()* to turn this **enumerate object** to a **list o
 ![Enumerate image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/4.Enumrate%20unpack.PNG)
 
 
-## Zip()
+## 2.2 Zip()
 *zip()* accepts an **arbitrary number of iterables** and returns an **zip object** which is actually **iterator of tuples**
 we can turn this **iterator of tuples** into a list using *list()*
 
