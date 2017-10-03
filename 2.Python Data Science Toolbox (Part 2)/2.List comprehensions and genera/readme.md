@@ -85,6 +85,18 @@ print(new_fellowship)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## 3.2 List Comprehensions vs Generators
 
 ![9.list-comprehensions-vs-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/9.list-comprehensions-vs-generators.PNG)
