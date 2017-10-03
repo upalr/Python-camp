@@ -87,8 +87,9 @@ A generator is like a list comprehension except **it doesn't store the list in m
 
 ![9.list-comprehensions-vs-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/9.list-comprehensions-vs-generators.PNG)
 
-Here we can see that looping over a generator expression produces the elements of the analogous list.
+## 3.3 Printing values from Generators
 
+Here we can see that looping over a generator expression produces the elements of the analogous list.
 We can also pass a generator to the function **list()** to create the list. 
 
 ![10.printing-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/10.printing-generators.PNG)
@@ -98,6 +99,9 @@ Moreover like any other **iterator** we can pass a generator to the funtion **ne
 ![11.printing-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/11.printing-generators.PNG)
 
 Anything we can do in a list comprehensions such as **filtering and applying conditionals** we can also do in a generator expression such as you can see here: 
+
+
+## 3.4 Conditionals in Generators
 
 ![12.conditionals-in-generators.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/12.conditionals-in-generators.PNG)
 
