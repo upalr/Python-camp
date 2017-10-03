@@ -113,6 +113,7 @@ Here i have defined a generator function that whenever called with a number *n* 
 
 ![14.generator-functions-example.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/14.generator-functions-example.PNG)
 
-calling generator functions is like calling other functions
+Calling generator functions is like calling other functions
+
 ![15.use-of-generator-functions.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/15.use-of-generator-functions.PNG)
 
