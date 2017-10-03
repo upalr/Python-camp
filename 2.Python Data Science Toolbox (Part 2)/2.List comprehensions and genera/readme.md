@@ -59,6 +59,18 @@ for row in matrix:
 ## 2.2 Dict comprehensions
 ![7.dict-comprehension.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/2.List%20comprehensions%20and%20genera/images/7.dict-comprehension.PNG)
 
+Another Example: 
+
+```python
+# Create a list of strings: fellowship
+fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gimli']
+
+# Create dict comprehension: new_fellowship
+new_fellowship = {member : len(member) for member in fellowship}
+
+# Print the new list
+print(new_fellowship)
+```
 
 
 
