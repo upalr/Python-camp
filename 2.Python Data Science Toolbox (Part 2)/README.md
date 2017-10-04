@@ -1,4 +1,6 @@
-# We can create one dictonary from two list using zip() and list()
+# 1 Bringing it all together!
+
+## 1.1 We can create one dictonary from two list using zip() and list()
 
 ```python
 # Zip lists: zipped_lists
@@ -10,8 +12,31 @@ rs_dict = dict(zipped_lists)
 # Print the dictionary
 print(rs_dict)
 ```
+### 1.1.1 Writing a function to help you
 
-# list of lists into list of dicts :
+```python
+# Define lists2dict()
+def lists2dict(list1, list2):
+    """Return a dictionary where list1 provides
+    the keys and list2 provides the values."""
+
+    # Zip lists: zipped_lists
+    zipped_lists = zip(list1, list2)
+
+    # Create a dictionary: rs_dict
+    rs_dict = dict(zipped_lists)
+
+    # Return the dictionary
+    return rs_dict
+
+# Call lists2dict: rs_fxn
+rs_fxn = lists2dict(feature_names, row_vals)
+
+# Print rs_fxn
+print(rs_fxn)
+
+```
+# 1.2 list of lists into list of dicts :
 ```python
 row_lists = [['Arab World', 'ARB', 'Adolescent fertility rate (births per 1,000 women ages 15-19)', 'SP.ADO.TFRT', '1960', '133.56090740552298']
     ['Arab World', 'ARB', 'Age dependency ratio (% of working-age population)', 'SP.POP.DPND', '1960', '87.7976011532547']]
@@ -30,7 +55,7 @@ print(list_of_dicts[0])
 print(list_of_dicts[1])
 ```
 
-# List of dictionary to DataFrame
+# 1.3 List of dictionary to DataFrame
 
 ```python
 # Import the pandas package
@@ -46,8 +71,15 @@ df = pd.DataFrame(list_of_dicts)
 print(df.head())
 ```
 
+# 2 Using Python generators for streaming data
 
-# process file line by line:
+##  2.1 process file line by line:
+We already saw that for a large data set we can use :
+    1. an iterator to loaded in chanks
+    2. We can also write a generator to loaded in line by line and one of the really cool things about this method is that if the data is straming that is if new lines are being written to the file you are reading this method will keep on reading and processing the file untill their are no lines left for here to read. 
+
+![1.generator-for-the-large%20-data-limit.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/3.Bringing%20it%20all%20together!/images/1.generator-for-the-large-data-limit.PNG)
+
 
 ```python
 # Open a connection to the file
