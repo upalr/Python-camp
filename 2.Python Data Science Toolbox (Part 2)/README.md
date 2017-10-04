@@ -80,9 +80,9 @@ We already saw that for a large data set we can use :
 
 ![1.generator-for-the-large%20-data-limit.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/3.Bringing%20it%20all%20together!/images/1.generator-for-the-large-data-limit.PNG)
 
+## 2.2 Open a connection to the file
 
 ```python
-# Open a connection to the file
 with open('world_dev_ind.csv') as file:
 
     # Skip the column names
@@ -112,13 +112,13 @@ with open('world_dev_ind.csv') as file:
 print(counts_dict)
 ```
 
-# Example 1
+## 2.3 Example 1: Writing a generator to load data in chunks (2)
 
 In the previous exercise, you processed a file line by line for a given number of lines. What if, however, you want to do this for the entire file?
 
 In this case, it would be useful to use generators. Generators allow users to lazily evaluate data. This concept of lazy evaluation is useful when you have to deal with very large datasets because it lets you generate values in an efficient manner by yielding only chunks of data at a time instead of the whole thing at once.
 
-Note that when you open a connection to a file, the resulting file object is already a generator! So out in the wild, you won't have to explicitly create generator objects in cases such as this. However, for pedagogical reasons, we are having you practice how to do this here with the read_large_file() function. Go for it!
+**Note that when you open a connection to a file, the resulting file object is already a generator!** So out in the wild, you won't have to explicitly create generator objects in cases such as this. However, for pedagogical reasons, we are having you practice how to do this here with the read_large_file() function. Go for it!
 
 ```python
 # Define read_large_file()
@@ -150,7 +150,7 @@ with open('world_dev_ind.csv') as file:
     print(next(gen_file))
 ```
 
-# Example 2:
+## 2.4 Example 2: Writing a generator to load data in chunks (3)
 Great! You've just created a generator function that you can use to help you process large files.
 
 Now let's use your generator function to process the World Bank dataset like you did previously. You will process the file line by line, to create a dictionary of the counts of how many times each country appears in a column in the dataset. For this exercise, however, you won't process just 1000 rows of data, you'll process the entire dataset!
@@ -178,8 +178,9 @@ with open('world_dev_ind.csv') as file :
 # Print            
 print(counts_dict)
 ```
+# 3 Using pandas read_csv iterator for streaming data
 
-# Example 3:
+## 3.1 Example 3: Writing an iterator to load data in chunks (1)
 
 Another way to read data too large to store in memory in chunks is to read the file in as DataFrames of a certain length, say, 100. For example, with the pandas package (imported as pd), you can do pd.read_csv(filename, chunksize=100). This creates an iterable reader object, which means that you can use next() on it.
 ```python
@@ -213,7 +214,7 @@ for df in pd.read_csv('tweets.csv', chunksize=10):
 print(counts_dict)
 ```
 
-# Example 4:
+## 3.2 Example 4: Writing an iterator to load data in chunks (2)
 
 In the previous exercise, you used read_csv() to read in DataFrame chunks from a large dataset. In this exercise, you will read in a file using a bigger DataFrame chunk size and then process the data from the first chunk.
 
