@@ -3,7 +3,7 @@
 *lists, strings, dictionaries, file connections are iterable*  +  enumrrate() and zip()
 
 **INFO:** for loop are used on those iterables
-
+**INFO 2 :**  you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
 iterable  -> iter() -> iterator -> next()
 
 ![Iterabls vs Iterators Image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/1.%20Iterators%20vs%20iterables.PNG)
