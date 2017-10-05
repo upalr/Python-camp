@@ -63,7 +63,8 @@ The object created by pd.readcsv('data.csv', chunksize = 1000) is an **iterable*
 
 ![Example of chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/9.chank.PNG)
 
-**INFO 2 Again :**  you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
+**INFO 2 Again :**  you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.** [DataCamp](https://campus.datacamp.com/courses/python-data-science-toolbox-part-2/bringing-it-all-together-3?ex=11)
+
 
 ``` python
 # Import the pandas package
@@ -75,5 +76,4 @@ df_reader = pd.read_csv('ind_pop.csv', chunksize=10)
 # Print two chunks
 print(next(df_reader))
 print(next(df_reader))
-
 ```
