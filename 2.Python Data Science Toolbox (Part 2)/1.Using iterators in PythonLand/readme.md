@@ -5,6 +5,7 @@
 **INFO:** for loop are used on those iterables
 
 **INFO 2 :**  you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
+
 iterable  -> iter() -> iterator -> next()
 
 ![Iterabls vs Iterators Image](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/1.%20Iterators%20vs%20iterables.PNG)
@@ -61,3 +62,6 @@ we could also use the (*) operator to print all the elements
 The object created by pd.readcsv('data.csv', chunksize = 1000) is an **iterable**. So we can iterate over it using a for loop in which each **chunk** will be a DataFrame
 
 ![Example of chank size](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/1.Using%20iterators%20in%20PythonLand/images/9.chank.PNG)
+
+**INFO 2 Again :**  you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
+
