@@ -74,6 +74,8 @@ import pandas as pd
 df_reader = pd.read_csv('ind_pop.csv', chunksize=10)
 
 # Print two chunks
-print(next(df_reader))
-print(next(df_reader))
+print(next(df_reader))                  # print first chunk (row 0 to 9)
+print(next(df_reader))                  # print second chunk (row 10 to 19)
 ```
+Output: 
+
