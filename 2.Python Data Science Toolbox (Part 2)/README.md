@@ -182,7 +182,7 @@ print(counts_dict)
 
 ## 3.1 Example 3: Writing an iterator to load data in chunks (1)
 
-Another way to read data too large to store in memory in chunks is to read the file in as DataFrames of a certain length, say, 100. For example, with the pandas package (imported as pd), you can do pd.read_csv(filename, chunksize=100). This creates an iterable reader object, which means that you can use next() on it.
+Another way to read data too large to store in memory in chunks is to read the file in as DataFrames of a certain length, say, 100. For example, with the pandas package (imported as pd), you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
 ```python
 
 # Import the pandas package
@@ -242,7 +242,7 @@ pops_list = list(pops)
 # Print pops_list
 print(pops_list)
 ```
-# Example 5:
+## 3.3 Example 5: Writing an iterator to load data in chunks (3)
 
 You're getting used to reading and processing data in chunks by now. Let's push your skills a little further by adding a column to a DataFrame.
 
@@ -273,9 +273,9 @@ df_pop_ceb.plot(kind='scatter', x='Year', y='Total Urban Population')
 plt.show()
 ```
 
-# Example 6:
+## 3.4 Example 6: Writing an iterator to load data in chunks (4)
 
-In the previous exercises, you've only processed the data from the first DataFrame chunk. This time, you will aggregate the results over all the DataFrame chunks in the dataset. This basically means you will be processing the entire dataset now. This is neat because you're going to be able to process the entire large dataset by just working on smaller pieces of it!
+**In the previous exercises, you've only processed the data from the first DataFrame chunk. This time, you will aggregate the results over all the DataFrame chunks in the dataset.** This basically means you will be processing the entire dataset now. This is neat because you're going to be able to process the entire large dataset by just working on smaller pieces of it!
 ```python
 # Initialize reader object: urb_pop_reader
 urb_pop_reader = pd.read_csv('ind_pop_data.csv', chunksize=1000)
@@ -306,7 +306,7 @@ for df_urb_pop in urb_pop_reader:
 data.plot(kind='scatter', x='Year', y='Total Urban Population')
 plt.show()
 ```
-# Exampel 7:
+# 3.5 Exampel 7: Writing an iterator to load data in chunks (5)
 
 This is the last leg. You've learned a lot about processing a large dataset in chunks. In this last exercise, you will put all the code for processing the data into a single function so that you can reuse the code without having to rewrite the same things all over again.
 
