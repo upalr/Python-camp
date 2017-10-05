@@ -65,3 +65,15 @@ The object created by pd.readcsv('data.csv', chunksize = 1000) is an **iterable*
 
 **INFO 2 Again :**  you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
 
+``` python
+# Import the pandas package
+import pandas as pd
+
+# Initialize reader object: df_reader
+df_reader = pd.read_csv('ind_pop.csv', chunksize=10)
+
+# Print two chunks
+print(next(df_reader))
+print(next(df_reader))
+
+```
