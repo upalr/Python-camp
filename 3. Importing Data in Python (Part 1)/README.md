@@ -2,6 +2,8 @@
 ## 1.1 Reading a Text file
 ![1.reading-text-file.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/1.reading-text-file.PNG)
 
+For large files, we may not want to print all of their content to the shell: you may wish to print only the first few lines. Enter the readline() method, which allows you to do this. When a file called file is open, you can print out the first line by executing file.readline(). If you execute the same command again, the second line will print, and so on.
+
 ## 1.2 Writing to a File
 ![2.writing-text-file.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/2.writing-text-file.PNG)
 
