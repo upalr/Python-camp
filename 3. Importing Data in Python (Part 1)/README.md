@@ -29,13 +29,29 @@ If they consist entirely of numbers and we want to store them as **Numpy array**
 
 # 3 Importing flat files using NumPy
 ## 3.1 Why Numpy?
+![8.why-numpy.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/8.why-numpy.PNG)
 
 ## 3.2 Importing flat files using NumPy
+![9.importing-flat-files-using-numpy.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/9.importing-flat-files-using-numpy.PNG)
+
 
 ## 3.3 Customize your numpy import 
+![10.customization.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/10.customization.PNG)
+
+![11.customization.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/11.customization.PNG)
+
+![12.customization.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/12.customization.PNG)
 
 ## 3.4 mixed types 
 **loadtext()** is grate for basic cases but it barkes down when we have mixed datatypes
+
+![12.customization.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/13.mixed-data-types.PNG)
+
+
+
+
+
+
 
 
 
