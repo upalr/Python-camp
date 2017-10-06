@@ -6,7 +6,7 @@
 ![2.writing-text-file.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/2.writing-text-file.PNG)
 
 ## 1.3 Context Manager With 
-you can avoid havaing to close the connection to the file by using a with statement. This allows you to create a context in which you can execute commands with the file open. Once out of this clause or context the file is no longer open and for this reason **with** is called a context manager. Best practice is using the with statement as you don't need to close the file again. 
+you can avoid having to close the connection to the file by using a **with statement**. This allows you to create a context in which you can execute commands with the file open. Once out of this clause or context the file is no longer open and for this reason **with** is called a **context manager**. **Best practice is using the with statement as you don't need to close the file again.** 
 
 ![3.text-file-with-context-manager.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/3.text-file-with-context-manager.PNG)
 
