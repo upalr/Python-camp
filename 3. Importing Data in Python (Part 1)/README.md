@@ -48,18 +48,32 @@ If they consist entirely of numbers and we want to store them as **Numpy array**
 ![12.customization.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/13.mixed-data-types.PNG)
 
 
+## Example 1: Customizing your NumPy import
+What if there are rows, such as a header, that you don't want to import? What if your file has a delimiter other than a comma? What if you only wish to import particular columns?
+
+There are a number of arguments that np.loadtxt() takes that you'll find useful: delimiter changes the delimiter that loadtxt() is expecting, for example, you can use ',' and '\t' for comma-delimited and tab-delimited respectively; skiprows allows you to specify how many rows (not indices) you wish to skip; usecols takes a list of the indices of the columns you wish to keep.
+
+The file that you'll be importing, digits_header.txt,
+
+*has a header
+*is tab-delimited.
+
+```python
+# Import numpy
+import numpy as np
+
+# Assign the filename: file
+file = 'digits_header.txt'
+
+# Load the data: data
+data = np.loadtxt(file, delimiter='\t', skiprows=1, usecols=[0, 2])
+
+# Print data
+print(data)
+```
 
 
-
-
-
-
-
-
-
-# Using NumPy to Import Flat Files
-
-## Importing different datatypes
+## Example 2: Importing different datatypes
 
 The file seaslug.txt
 
@@ -97,9 +111,9 @@ plt.show()
 
 ```
 
-## Working with mixed datatypes (1)    Using[np.genfromtx()]
+## Example 3: Working with mixed datatypes (1)    Using[np.genfromtx()]
 
-Much of the time you will need to import datasets which have different datatypes in different columns; one column may contain strings and another floats, for example. The function np.loadtxt() will freak at this. There is another function, np.genfromtxt(), which can handle such structures. If we pass dtype=None to it, it will figure out what types each column should be.
+Much of the time you will need to import datasets which have different datatypes in different columns; one column may contain strings and another floats, for example. The function np.loadtxt() will freak at this. There is another function, **np.genfromtxt()**, which can handle such structures. If we pass dtype=None to it, it will figure out what types each column should be.
 
 Import 'titanic.csv' using the function np.genfromtxt() as follows:
 
@@ -115,7 +129,7 @@ data['Survived'][-5:-1]
 array([0, 1, 0, 1])
 ```
 
-## Working with mixed datatypes (2)   Using[np.recfromcsv()]
+## Example 4: Working with mixed datatypes (2)   Using[np.recfromcsv()]
 
 You have just used np.genfromtxt() to import data containing mixed datatypes. There is also another function np.recfromcsv() that behaves similarly to np.genfromtxt(), except that its default dtype is None. In this exercise, you'll practice using this to achieve the same result
 <br />
