@@ -12,9 +12,19 @@ you can avoid having to close the connection to the file by using a **with state
 
 ![3.text-file-with-context-manager.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/3.text-file-with-context-manager.PNG)
 
+# 2 The importance of flat files in data science
+## 2.1 Flat Files
+![4.flat-files.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/4.flat-files.PNG)
 
+## 2.2 File Extenson
+![5.file-extension.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/5.file-extension.PNG)
 
+![6.tab-delimited-file.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/6.tab-delimited-file.PNG)
 
+## 2.3 How do you import flast files?
+If they consist entirely of numbers and we want to store them as **Numpy array** we could use the package **Numpy**. If instead we want to store data in a **DataFrame** we would use **Pandas**. Most of the time you will use one of these options.
+
+![7.import-flat-files.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/7.import-flat-files.PNG)
 
 
 
