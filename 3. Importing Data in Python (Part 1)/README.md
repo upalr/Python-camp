@@ -136,7 +136,11 @@ You have just used np.genfromtxt() to import data containing mixed datatypes. Th
 <br />
 <br />
 
-# Importing flast files using pandas
+
+# 3 Importing flast files using pandas
+
+
+
 
 ## Using pandas to import flat files as DataFrames (1)
 In the last exercise, you were able to import flat files containing columns with different datatypes as numpy arrays. However, the DataFrame object in pandas is a more appropriate structure in which to store such data and, thankfully, we can easily import files of **mixed data types as DataFrames** using the pandas functions read_csv() and read_table().
