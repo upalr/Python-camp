@@ -27,9 +27,15 @@ If they consist entirely of numbers and we want to store them as **Numpy array**
 ![7.import-flat-files.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/7.import-flat-files.PNG)
 
 
+# 3 Importing flat files using NumPy
+## 3.1 Why Numpy?
 
+## 3.2 Importing flat files using NumPy
 
+## 3.3 Customize your numpy import 
 
+## 3.4 mixed types 
+**loadtext()** is grate for basic cases but it barkes down when we have mixed datatypes
 
 
 
