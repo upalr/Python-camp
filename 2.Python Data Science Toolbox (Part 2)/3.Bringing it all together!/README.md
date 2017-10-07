@@ -75,7 +75,9 @@ print(df.head())
 
 ##  2.1 process file line by line:
 We already saw that for a large data set we can use :
+
     1. an iterator to loaded in chanks
+    
     2. We can also write a generator to loaded in line by line and one of the really cool things about this method is that if the data is straming that is if new lines are being written to the file you are reading this method will keep on reading and processing the file untill their are no lines left for here to read. 
 
 ![1.generator-for-the-large%20-data-limit.PNG](https://github.com/upalr/Python-camp/blob/master/2.Python%20Data%20Science%20Toolbox%20(Part%202)/3.Bringing%20it%20all%20together!/images/1.generator-for-the-large-data-limit.PNG)
