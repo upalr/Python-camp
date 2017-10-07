@@ -182,7 +182,7 @@ print(counts_dict)
 
 ## 3.1 Example 3: Writing an iterator to load data in chunks (1)
 
-Another way to read data too large to store in memory in chunks is to read the file in as DataFrames of a certain length, say, 100. For example, with the pandas package (imported as pd), you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
+**Another way to read data too large to store in memory in chunks is to read the file in as DataFrames of a certain length, say, 100.** For example, with the pandas package (imported as pd), you can do pd.read_csv(filename, chunksize=100). **This creates an iterable reader object, which means that you can use next() on it.**
 ```python
 
 # Import the pandas package
