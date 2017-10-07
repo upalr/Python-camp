@@ -196,9 +196,11 @@ df_reader = pd.read_csv('ind_pop.csv', chunksize=10)
 # Print two chunks
 print(next(df_reader))
 print(next(df_reader))
-
+```
 
 Demo code read_csv::
+
+```python
 # Initialize an empty dictionary: counts_dict
 counts_dict = {}
 
