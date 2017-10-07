@@ -45,7 +45,7 @@ If they consist entirely of numbers and we want to store them as **Numpy array**
 ## 3.4 mixed types 
 **loadtext()** is grate for basic cases but it barkes down when we have mixed datatypes
 
-![12.customization.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/13.mixed-data-types.PNG)
+![13.mixed-data-types.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/13.mixed-data-types.PNG)
 
 
 ## Example 1: Customizing your NumPy import
@@ -138,6 +138,14 @@ You have just used np.genfromtxt() to import data containing mixed datatypes. Th
 
 
 # 3 Importing flast files using pandas
+## 3.1 What a Data Scientis needs
+![14.what-a-data-scientist-needs.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/14.what-a-data-scientist-needs.PNG)
+
+## 3.2 Manipulating Pandas DataFrames
+![15.manipulating-pandas-dataframes.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/15.manipulating-pandas-dataframes.PNG)
+
+## 3.3 Importing Using Pandas
+![16.importing-using-pandas.PNG](https://github.com/upalr/Python-camp/blob/master/3.%20Importing%20Data%20in%20Python%20(Part%201)/1.%20Introduction%20and%20flat%20files/images/16.importing-using-pandas.PNG)
 
 
 
