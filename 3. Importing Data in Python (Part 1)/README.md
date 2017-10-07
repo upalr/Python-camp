@@ -171,9 +171,10 @@ data_array = data.values
 print(type(data_array))
 ```
 
-# Customizing your pandas import
+## Example 3:  Customizing your pandas import
 
-**The pandas package is also great at dealing with many of the issues you will encounter when importing data as a data scientist,** <br />
+**The pandas package is also great at dealing with many of the issues you will encounter when importing data as a data scientist,** 
+<br />
 such as: 
 1. comments occurring in flat files,
 2. empty lines and missing values. 
